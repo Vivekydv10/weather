@@ -5,7 +5,8 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: #0e0b0b;
+   
+    background: linear-gradient(to right, #7c4e08, #bbb932);
 }
 .card{
     width: 90%;
@@ -110,4 +111,37 @@ body{
     font-size: 18px;
     display: none;
     margin-top: 10px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .card {
+    padding: 20px;
+  }
+
+  .weather h1.temp {
+    font-size: 34px;
+  }
+
+  .weather h2.city {
+    font-size: 22px;
+  }
+
+  .col p {
+    font-size: 12px;
+  }
+
+  .weather img.weather-icon {
+    width: 80px;
+  }
+
+  .search input {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .search button {
+    padding: 8px 12px;
+  }
 }
